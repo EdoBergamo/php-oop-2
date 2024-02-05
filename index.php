@@ -15,7 +15,7 @@ function stampaCardProdotto($prodotto, $imgUrl)
 {
   echo "
     <div style='border: 1px solid #ccc; padding: 10px; margin: 10px; text-align: center;'>
-        <img src='$imgUrl' alt='$prodotto->nome' style='max-width: 100%; height: auto;'>
+        <img src='$imgUrl' alt='$prodotto->nome' style='width: 500px; height: auto;'>
         <h3>$prodotto->nome</h3>
         <p>Prezzo: $prodotto->prezzo €</p>
         <p>Categoria: $prodotto->categoria</p>";

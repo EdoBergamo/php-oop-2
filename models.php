@@ -47,4 +47,8 @@ class Categoria
     $this->id = $id;
     $this->nome = $nome;
   }
+  public function __toString()
+  {
+    return $this->nome;
+  }
 }
