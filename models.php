@@ -47,6 +47,8 @@ class Categoria
     $this->id = $id;
     $this->nome = $nome;
   }
+
+  // https://stackoverflow.com/questions/5172261/where-and-why-do-we-use-tostring-in-php
   public function __toString()
   {
     return $this->nome;
